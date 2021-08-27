@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.envirotech">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,7 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EnviroTech">
-        <activity android:name=".NonBeneficial_Insects"></activity>
+        <activity android:name=".Fertilizers"></activity>
+        <activity android:name=".Farming" />
+        <activity android:name=".Weather" />
+        <activity android:name=".NonBeneficial_Insects" />
         <activity android:name=".Beneficial_Insects" />
         <activity android:name=".Insects" />
         <activity android:name=".Page" />

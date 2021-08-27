@@ -245,7 +245,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="28dp"
             android:fontFamily="@font/amaranth_bold"
-            android:text="Agri App"
+            android:text="AgryGrain"
             android:textColor="@color/black"
             android:textSize="24sp"
             android:textStyle="bold"

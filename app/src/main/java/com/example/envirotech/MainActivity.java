@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         farming.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this,Page.class);
+                Intent intent =new Intent(MainActivity.this,Farming.class);
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         weather.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this,Page.class);
+                Intent intent =new Intent(MainActivity.this,Weather.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         fertilizers.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this,Page.class);
+                Intent intent =new Intent(MainActivity.this,Fertilizers.class);
                 startActivity(intent);
             }
         });

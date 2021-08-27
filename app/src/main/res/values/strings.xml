@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">EnviroTech</string>
+    <string name="farming_info"><b><u>FARMING</u></b></string>
+
 </resources>
