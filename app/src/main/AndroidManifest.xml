@@ -2,8 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.envirotech">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
 
     <application
         android:allowBackup="true"
@@ -12,11 +17,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EnviroTech">
-        <activity android:name=".Fertilizers"></activity>
+        <activity android:name=".Crops"></activity>
+        <activity android:name=".Fertilizers" />
         <activity android:name=".Farming" />
         <activity android:name=".Weather" />
-        <activity android:name=".NonBeneficial_Insects" />
-        <activity android:name=".Beneficial_Insects" />
         <activity android:name=".Insects" />
         <activity android:name=".Page" />
         <activity android:name=".MainActivity">

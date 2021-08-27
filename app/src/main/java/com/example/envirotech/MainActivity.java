@@ -30,14 +30,14 @@ public class MainActivity extends AppCompatActivity {
         crop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this,Page.class);
+                Intent intent =new Intent(MainActivity.this,Crops.class);
                 startActivity(intent);
             }
         });
         insects.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =new Intent(MainActivity.this, Insects.class);
+                Intent intent =new Intent(MainActivity.this,Insects.class);
                 startActivity(intent);
             }
         });

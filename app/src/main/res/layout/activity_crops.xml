@@ -2,11 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/relative_lay_fertilizer"
+    android:id="@+id/relative_lay_crops"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="15dp"
-    tools:context=".Fertilizers">
+    tools:context=".Crops">
 
 
 
@@ -24,10 +24,11 @@
                 android:layout_centerHorizontal="false"
                 android:fontFamily="@font/aladin"
                 android:gravity="center"
-                android:text="FERTILIZERS"
+                android:text="CROPS"
                 android:textColor="@color/black"
                 android:textSize="24sp"
                 android:textStyle="bold"/>
+
 
             <TextView
                 android:id="@+id/maintext"
@@ -35,7 +36,6 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@id/title_text"
                 android:textColor="@color/black"
-                android:text="@string/test"
                 android:textSize="16sp" />
 
 

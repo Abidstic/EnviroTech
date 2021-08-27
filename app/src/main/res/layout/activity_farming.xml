@@ -9,6 +9,7 @@
     tools:context=".Farming">
 
 
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
@@ -37,13 +38,7 @@
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
-            <ImageView
-                android:id="@+id/back_button"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:padding="15dp"
-                app:srcCompat="@drawable/back_button"
-                tools:visibility="visible" />
+
 
 
         </RelativeLayout>
